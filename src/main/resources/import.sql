@@ -1,0 +1,1 @@
+CREATE SCHEMA IF NOT EXISTS tech_desk_schema;

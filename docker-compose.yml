@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:18-alpine
+    ports:
+      - "5436:5432"
+    environment:
+      - POSTGRES_USER=iMynthon
+      - POSTGRES_PASSWORD=ZQMM
+      - POSTGRES_DB=rem_tech_desk_db
